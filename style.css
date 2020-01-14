@@ -11,13 +11,20 @@
 
   .header {
       position: fixed;
+      right: 0;
       top: 0;
+      color: black;
   }
 
-a {
+.footer a {
     text-decoration: none;
     color: #5f6368;
     }
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
 
 a:hover {
     text-decoration: underline;
@@ -28,19 +35,32 @@ body {
     font-size: 13px;
     }
 
-  #fls  {
-      float: left;
-  }
+#fls  {
+    float: left;
+}
 
-  #fls a {
-    padding-left: 25px;
-  }
+#fls a {
+padding-left: 25px;
+}
 
-  #frs  {
-      float: right;
-  }
+#frs  {
+    float: right;
+}
 
-  #frs a {
-      padding-right: 25px;
-  }
-  
+#frs a {
+    padding-right: 25px;
+}
+
+#hrs {
+    float: right;
+
+}
+
+#fadein {
+    opacity: 0.6;
+    transition: 0s;
+}
+
+#fadein:hover {
+    opacity: 1;
+}
