@@ -77,3 +77,36 @@ body {
     font-size: 13px;
     border-radius: 3px;
 }
+
+.middlepage {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    padding-top: 200px;
+}
+
+input, select, textarea {
+    line-height: 38px;
+    font-family: inherit;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+    border-color: #DFE1E4;
+    margin-top: 30px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    width: 54%;
+    text-indent: 20px;
+}
+
+input:focus, input:hover {
+    outline: none;
+    box-shadow: 0px 0px 4px 8px #f3f3f3;
+}
+
+input {
+    background: url(images/mag-mic-search.png) no-repeat scroll 15px 9px;
+    padding-left: 30px;
+}
+
